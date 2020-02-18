@@ -4,12 +4,12 @@ const RESOURCES = {
   "/assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
 "/assets/FontManifest.json": "580ff1a5d08679ded8fcf5c6848cece7",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"/assets/LICENSE": "f74fe267e013a2754d69b89b89dae93e",
+"/assets/LICENSE": "2f2f057a6a33c9295cd6e2dcfdce98ef",
 "/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/index.html": "24f61b7fcf02d2868e0697c4f96c62a9",
-"/main.dart.js": "eaf2cea6f315a2bc5ab7a4efa4641bfe",
+"/main.dart.js": "443cdbe8a74766cc172519554396f0f9",
 "/manifest.json": "2740554587450e9491c3a6f13d83b097"
 };
 
