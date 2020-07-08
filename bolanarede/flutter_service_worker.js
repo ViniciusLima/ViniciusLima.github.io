@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/icon/gol.png": "99d76ab9eabf793ed298fdf9b3f90111",
 "assets/icon/logo.png": "cb422fdfca89fb613f3cc49d165a10bd",
-"assets/NOTICES": "242cdc34c724beb93a055adbc55845b9",
+"assets/NOTICES": "7c11135b7e2d974fb4fdd966428938af",
 "favicon.png": "88a1e9d1176dfd96e85c7ed77bff3cb2",
 "icons/android-icon-144x144.png": "a886503822c0c6e524ab9b3e9f6e7245",
 "icons/android-icon-192x192.png": "06e7469a5d8edc4f567946f6888f3015",
@@ -35,9 +35,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "f04b88f9d0d3b8d88f9ab77567a27b07",
 "icons/ms-icon-310x310.png": "f3ba50c98773f882cfceb5e86299084f",
 "icons/ms-icon-70x70.png": "2e09ae99274ce40639c11ed65efba149",
-"index.html": "af0ed725cb4348adb4d6d705e08660c7",
-"/": "af0ed725cb4348adb4d6d705e08660c7",
-"main.dart.js": "f3c356be8631a26bf45a0bc9cd041c69",
+"index.html": "bd5e0b458b1acbc17d560268377c8d3f",
+"/": "bd5e0b458b1acbc17d560268377c8d3f",
+"main.dart.js": "ade82037b75a23ac6085da21882ed055",
 "manifest.json": "66f410c2c6b5d28a595953be34f8ef8b"
 };
 
