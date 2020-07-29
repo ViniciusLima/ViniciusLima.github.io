@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/icon/gol.png": "99d76ab9eabf793ed298fdf9b3f90111",
 "assets/icon/logo.png": "cb422fdfca89fb613f3cc49d165a10bd",
-"assets/NOTICES": "7c11135b7e2d974fb4fdd966428938af",
+"assets/NOTICES": "b74913dc49ce8252e2220dae9d9c4516",
 "favicon.png": "88a1e9d1176dfd96e85c7ed77bff3cb2",
 "icons/android-icon-144x144.png": "a886503822c0c6e524ab9b3e9f6e7245",
 "icons/android-icon-192x192.png": "06e7469a5d8edc4f567946f6888f3015",
@@ -35,9 +35,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "f04b88f9d0d3b8d88f9ab77567a27b07",
 "icons/ms-icon-310x310.png": "f3ba50c98773f882cfceb5e86299084f",
 "icons/ms-icon-70x70.png": "2e09ae99274ce40639c11ed65efba149",
-"index.html": "bd5e0b458b1acbc17d560268377c8d3f",
-"/": "bd5e0b458b1acbc17d560268377c8d3f",
-"main.dart.js": "b7f72de50a5432f69a301f47f78c13b5",
+"index.html": "3b9b4051396d7e32f590e18775050f10",
+"/": "3b9b4051396d7e32f590e18775050f10",
+"main.dart.js": "ee3805cfea05d2a1bd776ec841efec29",
 "manifest.json": "66f410c2c6b5d28a595953be34f8ef8b"
 };
 
@@ -47,7 +47,7 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/LICENSE",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 
@@ -129,7 +129,7 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
     key = '/';
   }
-  // If the URL is not the the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
   }
@@ -152,11 +152,11 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
-  if (event.message == 'skipWaiting') {
+  if (event.data === 'skipWaiting') {
     return self.skipWaiting();
   }
 
-  if (event.message = 'downloadOffline') {
+  if (event.message === 'downloadOffline') {
     downloadOffline();
   }
 });
@@ -176,8 +176,8 @@ async function downloadOffline() {
   }
   for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
-      resources.add(resourceKey);
+      resources.push(resourceKey);
     }
   }
-  return Cache.addAll(resources);
+  return contentCache.addAll(resources);
 }
