@@ -33821,7 +33821,7 @@ return P.w(null,r)}})
 return P.x($async$$0,r)},
 $S:48}
 X.oZ.prototype={
-G:function(a,b){var s,r=null,q=T.bS(L.ac("0.10",r,r,r,r,r),r,r),p=L.ac("Bola na Rede",r,r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,r,r,C.B,r,r,!0,r,r,r,r,r,r),r),o=this.c,n=o.y.c
+G:function(a,b){var s,r=null,q=T.bS(L.ac("0.11",r,r,r,r,r),r,r),p=L.ac("Bola na Rede",r,r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,r,r,C.B,r,r,!0,r,r,r,r,r,r),r),o=this.c,n=o.y.c
 n.toString
 s=t.t
 return M.n1(E.lN(H.c([T.bS(L.ac(H.lH(n," ","\n"),r,r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,10,r,C.B,r,r,!0,r,r,r,r,r,r),C.a2),r,r),new Z.pM(new X.UZ(this),new X.V_(this,b),C.ao,L.bl(C.rs,r),r,t.gm)],s),!0,q,p),M.aU(r,T.bS(T.bT(H.c([N.CY(L.ac("Meus Bol\xf5es",r,r,r,r,r),C.aS,new X.V0(),r,r,C.j),Z.u7(C.ab),L.ac(o.y.b,r,r,r,A.c1(r,r,r,r,r,r,r,r,r,r,r,r,r,C.B,r,r,!0,r,r,r,r,r,r),r),Z.u7(C.ab),K.agv(r,r,K.agv(C.j,new L.o6("icon/gol.png",r,r),r,40),40)],s),C.u,C.v,C.w),r,r),r,r,r,r,r,r,r,r,r,r))},
