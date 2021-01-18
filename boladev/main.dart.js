@@ -36121,7 +36121,7 @@ if(o>0){s=J.od(q.c.fr,o-1)
 if(s.b!=a.b||s.c!=a.c)++q.f;++q.e}else{++q.f
 q.e=o+1}r=J.cA(a.a.b,q.d.b)===0?C.ll.h(0,100):C.j
 o=P.ak([0,new S.hr(0.15),1,new S.hr(0.6)],t.e,t.PV)
-return S.xz(new N.qD(C.jL,C.jL,C.r,C.jL,C.r,C.jL),H.c([new S.ey(H.c([M.aS(p,T.bX(L.ap(""+q.f,p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(C.qE,L.ap(" "+H.b(a.a.b)+" ("+H.b(a.a.c)+")",p,p,p,q.r,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(p,T.bX(L.ap(H.b(a.b),p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(p,T.bX(L.ap(H.b(a.c),p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p)],t.t))],t.w2),o,C.fo)}}
+return S.xz(new N.qD(C.r,C.jL,C.jL,C.jL,C.r,C.jL),H.c([new S.ey(H.c([M.aS(p,T.bX(L.ap(""+q.f,p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(C.qE,L.ap(" "+H.b(a.a.b)+" ("+H.b(a.a.c)+")",p,p,p,q.r,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(p,T.bX(L.ap(H.b(a.b),p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p),M.aS(p,T.bX(L.ap(H.b(a.c),p,p,p,q.r,C.a1),p,p),C.k,r,p,p,p,40,p,p,p,p,p,p)],t.t))],t.w2),o,C.fo)}}
 U.a_y.prototype={
 $0:function(){var s=null,r=this.a,q=r.c,p=q.fx
 if(p.gk(p))r=T.bX(T.bY(H.c([L.ap("Aguarde...",s,s,s,s,s),U.ek(s)],t.t),C.v,C.x,C.w),s,s)
@@ -70686,7 +70686,7 @@ C.qY=new K.cB(C.hM,C.hM,C.aa,C.aa)
 C.n_=new K.cB(C.hM,C.hM,C.hM,C.hM)
 C.na=new P.A(1929379840)
 C.J=new Y.Cd("BorderStyle.solid")
-C.jL=new Y.cC(C.na,0.5,C.J)
+C.jL=new Y.cC(C.na,1,C.J)
 C.W=new P.A(3707764736)
 C.jM=new Y.cC(C.W,0.5,C.J)
 C.q=new P.A(4278190080)
