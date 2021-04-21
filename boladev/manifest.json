@@ -1,11 +1,11 @@
 {
-    "name": "Bola na Rede App",
+    "name": "bolanaredeapp",
     "short_name": "bolanaredeapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Projeto Bola na Rede de Bolões e Apostas",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
